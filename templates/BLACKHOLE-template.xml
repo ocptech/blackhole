@@ -1,0 +1,19 @@
+<config-template xmlns="http://tail-f.com/ns/config/1.0">
+  <devices xmlns="http://tail-f.com/ns/ncs">
+    <device>
+      <name>SP_BALAB--CSR1000v-ISG</name>
+      <config>
+        <ip xmlns="urn:ios">
+          <route>
+            <ip-route-interface-list>
+              <prefix>{$IP}</prefix>
+              <mask>255.255.255.255</mask>
+              <interface>Null0</interface>
+              <tag>66</tag>
+            </ip-route-interface-list>
+          </route>
+        </ip>
+      </config>
+    </device>
+  </devices>
+</config-template>

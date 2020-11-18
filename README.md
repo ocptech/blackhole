@@ -1,2 +1,17 @@
 # blackhole
 Blackholing a list of IPs sourced from S3 bucket
+
+This is complete package for NSO. Copy entire directory under ..../packages directory. 
+
+
+This is a simple package to demostrate ability to solve diferents an diverse problems presented from customer.
+
+Using Boto3 library (AWS provided) for python, the service created with this package:
+- download a .txt file with a list of IPs form a amazon S3 bucket
+- create an IP route pointing to a null interface in an IOS device for each IP in the list.
+
+This is a very simple implemantation, so please be aware of below considerations:
+
+- Credentials for login to access the S3 bucket are implemented using "aws configure" aplication for linux (must be done in advance of service aplication).
+- IOS device and its NED must be working also in advance
+- The S3 bucket provided in the example is not for public access, you need to provide your own one.
