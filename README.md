@@ -24,5 +24,5 @@ This is a very simple implementation, so please be aware of below considerations
 - Credentials for login to access the S3 bucket are implemented using "aws configure" application for Linux.
 - IOS device and its NED must be working also in advance
 
-NOTE: Cisco NSO should be installed and working. Please see: for Trial installation instructions and licences:
+NOTE: Cisco NSO should be installed and working. For Trial installation instructions and licences:
 https://developer.cisco.com/docs/nso/#!getting-nso/getting-nso
