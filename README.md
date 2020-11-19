@@ -10,8 +10,13 @@ Using Boto3 library (AWS provided) for python, the service created with this pac
 - download a .txt file with a list of IPs form an amazon S3 bucket
 - create an IP route pointing to a null interface in an IOS device for each IP in the list.
 
-Topology:
+
+
+
+
 ![Topology](https://github.com/cbottcher/blackhole/blob/main/Topology.png)
+
+
 
 This is a very simple implementation, so please be aware of below considerations/pre-requisites (use    prerequisites.pdf):
 
