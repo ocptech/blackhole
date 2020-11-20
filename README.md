@@ -31,3 +31,4 @@ https://developer.cisco.com/docs/nso/#!getting-nso/getting-nso
 or you can use NSO sandbox: 
 https://devnetsandbox.cisco.com/RM/Diagram/Index/43964e62-a13c-4929-bde7-a2f68ad6b27c?diagramType=Topology 
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/cbottcher/blackhole)
