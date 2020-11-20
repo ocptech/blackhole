@@ -18,7 +18,9 @@ Using Boto3 library (AWS provided) for python, the service created with this pac
 
 
 
-This is a very simple implementation, so please be aware of below considerations/pre-requisites (use    prerequisites.pdf):
+This is a very simple implementation, so please be aware of below considerations/pre-requisites. 
+
+Please refer prerequisites.pdf for the initial setup for using the script:
 
 - The S3 bucket provided in the example is not for public access, you need to provide your own one.
 - Credentials for login to access the S3 bucket are implemented using "aws configure" application for Linux.
@@ -26,3 +28,6 @@ This is a very simple implementation, so please be aware of below considerations
 
 NOTE: Cisco NSO should be installed and working. For Trial installation instructions and licences:
 https://developer.cisco.com/docs/nso/#!getting-nso/getting-nso
+or you can use NSO sandbox: 
+https://devnetsandbox.cisco.com/RM/Diagram/Index/43964e62-a13c-4929-bde7-a2f68ad6b27c?diagramType=Topology 
+
