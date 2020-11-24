@@ -1,10 +1,17 @@
-# blackhole
+# Blackhole
 Blackholing a list of IPs sourced from S3 bucket
 
-This is complete package for NSO. Copy entire directory under ..../packages directory. 
+## The requets:
+Request from customer was to automatize a current manual process that mainly consist in:
+- Download a .txt file from an AWS S3 bucket.
+- Using the list of IPs in the file create a route in a cisco IOS device
+
+![Request](https://github.com/cbottcher/blackhole/blob/main/Request.png)
 
 
-This is a simple package to demonstrate NSO ability to solve different and diverse problems presented from customer.
+## The solution:
+
+Create a NSO service (python+template)
 
 Using Boto3 library (AWS provided) for python, the service created with this package:
 - download a .txt file with a list of IPs form an amazon S3 bucket
@@ -12,15 +19,13 @@ Using Boto3 library (AWS provided) for python, the service created with this pac
 
 
 
-
-
 ![Topology](https://github.com/cbottcher/blackhole/blob/main/Topology.png)
 
 
-
-This is a very simple implementation, so please be aware of below considerations/pre-requisites. 
-
-Please refer prerequisites.pdf for the initial setup for using the script:
+NOTE:
+- This is complete package for NSO. Copy entire directory under ..../packages directory. 
+- This is a simple package (PoC grade) to demonstrate NSO ability to solve the request. Some extra work is needed for production
+- Please refer to "prerequisites.pdf" for the initial setup for using the script:
 
 - The S3 bucket provided in the example is not for public access, you need to provide your own one.
 - Credentials for login to access the S3 bucket are implemented using "aws configure" application for Linux.
