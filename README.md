@@ -25,8 +25,7 @@ Using Boto3 library (AWS provided) for python, the service created with this pac
 NOTE:
 - This is complete package for NSO. Copy entire directory under ..../packages directory. 
 - This is a simple package (PoC grade) to demonstrate NSO ability to solve the request. Some extra work is needed for production
-- Please refer to "prerequisites.pdf" for the initial setup for using the script:
-
+- Please refer to "prerequisites.pdf" for the initial setup for using the script.
 - The S3 bucket provided in the example is not for public access, you need to provide your own one.
 - Credentials for login to access the S3 bucket are implemented using "aws configure" application for Linux.
 - IOS device and its NED must be working also in advance
